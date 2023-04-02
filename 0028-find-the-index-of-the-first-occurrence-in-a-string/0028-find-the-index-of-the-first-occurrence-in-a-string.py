@@ -5,7 +5,6 @@ class Solution(object):
         :type needle: str
         :rtype: int
         """
-        needleptr, lptr, rptr = 0, 0, 0
         
         haystack_len = len(haystack)
         needle_len = len(needle)
